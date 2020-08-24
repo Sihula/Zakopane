@@ -6,21 +6,27 @@ html {
 *::after {
   box-sizing: inherit;
 }
-.box{
-    display: flex;
-    transition: all .3s ;
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
-a{
-    display: inline-block;
-
+a {
+  text-decoration: none;
+  color: $dark;
+  display: inline-block;
 }
 ul,
-li{
+li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-body{
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-fluid {
+  max-width: 1920px;
+  margin: 0 auto;
 }
